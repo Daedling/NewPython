@@ -1,2 +1,3 @@
-Манаев Егор
-https://github.com/Daedling/Python - старый питон
+Домашние и прочие задания
+Манаев Егор, 173 группа, курс 2
+[старый питон](https://github.com/Daedling/Python)
