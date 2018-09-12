@@ -1,0 +1,22 @@
+word='acaabba'
+match=[]
+notr=6
+word2=list(word)
+out='_'*len(word2)
+while notr!=0:#attempts check
+
+    ipt=input('letter: ')
+    if ipt in word2:#check for correctness of choice 
+        out=''#output template
+        match.append(ipt)#check if already guessed
+        for a in word2:#creation of output based on guessed list
+            if a in match:
+                out+=a         
+            else:
+                out+='_'
+    else:
+        notr-=1
+        print('wrong')
+    print(out)      
+                
+    
