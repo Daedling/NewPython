@@ -6,7 +6,7 @@
 **№**|**Работа**|**Ссылка**|**Срок сдачи**  
 ---|:---|:---|:---  
 **1**|Виселица|[*код*](https://github.com/Daedling/NewPython/tree/master/homework/HW-001-22.09.18)|22.09.18
-**2**|Coming soon|[*work in progress*](https://giphy.com/embed/VjAB0fOmK15Ze)|aa.bb.cc
+**2**|Coming soon|[*код*](https://github.com/Daedling/NewPython/tree/master/homework/HW-002-06.10.18)|aa.bb.cc
 **3**|Coming soon|[*work in progress*](https://giphy.com/embed/VjAB0fOmK15Ze)|aa.bb.cc
 **4**|Coming soon|[*work in progress*](https://giphy.com/embed/VjAB0fOmK15Ze)|aa.bb.cc  
 
