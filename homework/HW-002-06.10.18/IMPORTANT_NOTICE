@@ -1,0 +1,2 @@
+1 - tokens must be replaces, since github cares about privacy or something
+2 - last line of cinq() function: b[1] instead of b is intended
