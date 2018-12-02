@@ -1,0 +1,58 @@
+﻿<html>
+<body>
+
+<h2>Form the great</h2>
+<h3>Заполните анкету</h3>
+<form method='get' action="/processor">
+  Имя:<br>
+  <input type="text" name="firstname"><br>
+  Фамилия:<br>
+  <input type="text" name="lastname"><br>
+  Возраст<br>
+  <input type="radio" name="age" value="0-20" checked> 0-20<br>
+  <input type="radio" name="age" value="21-40"> 21-40<br>
+  <input type="radio" name="age" value="41-60"> 41-60
+  <h3>Выберите те ударения, которые считаете верными, для слов, перечисленных ниже:</h3>
+<p>Диспансер, кремень, принудить, генезис, облегчить, черпать, ломоть.
+  <p>Выберите нужную форму из списка:</p>
+<p>Диспансер:</p>
+  <select name="word1">
+    <option value="11">диспансЕр</option>
+    <option value="21">диспАнсер</option>
+  </select>
+  <p>кремень:</p>
+  <select name="word2">
+    <option value="12">кремЕнь</option>
+    <option value="22">крЕмень</option>
+  </select>
+  <p>принудить:</p>
+  <select name="word3">
+    <option value="13">принУдить</option>
+    <option value="23">принудИть</option>
+  </select>
+  <p>генезис:</p>
+  <select name="word4">
+    <option value="14">гЕнезис</option>
+    <option value="24">генЕзис</option>
+  </select>
+  <p>облегчить:</p>
+  <select name="word5">
+    <option value="15">облегчИть</option>
+    <option value="25">облЕгчить</option>
+  </select>
+  <p>черпать:</p>
+  <select name="word6">
+    <option value="16">чЕрпать</option>
+    <option value="26">черпАть</option>
+  </select>
+  <p>ломоть:</p>
+  <select name="word7">
+    <option value="17">ломОть</option>
+    <option value="27">лОмоть</option>
+  </select>
+  <br>
+<input type = 'submit' value='Send'>
+</form>
+
+</body>
+</html>
