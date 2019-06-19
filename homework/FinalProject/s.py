@@ -36,3 +36,5 @@ bot=telebot.TeleBot(code.TOKEN)
 @bot.message_handler(func=lambda m: True)    
 def sendtheword(message):
     bot.send_message(message.chat.id,Molder())
+if __name__ == '__main__':
+    bot.polling(none_stop=True)
